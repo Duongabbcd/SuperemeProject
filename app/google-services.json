@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "901680855191",
+    "project_id": "superemeproject-4c65d",
+    "storage_bucket": "superemeproject-4c65d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901680855191:android:13cb87372dfebd76fb11d2",
+        "android_client_info": {
+          "package_name": "com.example.superemeproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901680855191-f03e5d5nlb3ghr0kmf1t1q35q1sdehgs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIb0-iHqc3CHgBcgsCJ2A97q5tncEHZPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901680855191-f03e5d5nlb3ghr0kmf1t1q35q1sdehgs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

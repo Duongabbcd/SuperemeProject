@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/background_login">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/instagram_logo"
+        android:layout_marginTop="160dp"
+        />
+
+    <EditText
+        android:id="@+id/lo_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:hint="Email :"
+        android:paddingLeft="15dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/berkshire_swash"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+
+    <EditText
+        android:id="@+id/lo_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit_text_background"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/berkshire_swash"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:hint="Password :"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/lo_signIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#0F82E8"
+        android:fontFamily="cursive"
+        android:padding="10dp"
+        android:text="Sign in"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:cornerRadius="30dp" />
+
+    <TextView
+        android:id="@+id/lo_register"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account ?"
+        android:fontFamily="cursive"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+</LinearLayout>
